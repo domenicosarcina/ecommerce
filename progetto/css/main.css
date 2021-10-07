@@ -1,0 +1,154 @@
+body{
+  padding: 50px;
+}
+
+#headerWrapper{
+  position:relative;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  height: 700px;
+  background-image: url(../images/home/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#logotext{
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  background-image: url(../images/home/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 180px;
+  top: 50%;
+  margin-top: -90px;
+}
+
+#rightimage{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/home/homer.png);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: 300px;
+  right: -300px;
+}
+
+#leftimage{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/home/bart.png);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  top: 300px;
+  left: -250px;
+}
+
+.img-size{
+  width:auto;
+  height:200px;
+}
+
+#footer{
+  margin-left: 50;
+}
+
+img.details{
+  width:60%;
+  margin: 15px auto;
+}
+
+.table-auto{
+  width:auto;
+  margin:0 auto;
+}
+
+#add-product-btn{
+  margin-top: -35px;
+}
+
+.tipo{
+  color: #fff;
+  background: #DB2222;
+  margin : auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style : italic;
+  font-size:20px;
+}
+
+.saved-image img{
+  width: 200px;
+  height: auto;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0,6);
+  margin: 7% auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#partial-headerWrapper{
+  position:relative;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  height: 210px;
+  background-image: url(../images/home/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#partial-logotext{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background-image: url(../images/home/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 180px;
+  top: 50%;
+  margin-top: -90px;
+}
+
+#partial-rightimage{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/home/homer.png);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: 300px;
+  right: -300px;
+}
+
+#partial-leftimage{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/home/bart.png);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  top: 300px;
+  left: -250px;
+}
+
+.totals table-header th{
+  text_align:center;
+}
